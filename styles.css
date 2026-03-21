@@ -437,7 +437,7 @@ ol {
 }
 
 .catcard:hover {
-    transform: translateY(-8px) scale(1.02);
+    transform: translateY(5px) scale(1.03);
     box-shadow: var(--shadow-xl);
 }
 
@@ -482,10 +482,6 @@ ol {
     object-fit: cover;
     border-radius: var(--radius-lg);
     transition: var(--transition-slow);
-}
-
-.catcard:hover .catcard__img-wrap img {
-    transform: scale(1.06);
 }
 
 /* Info area at bottom */
@@ -1077,16 +1073,18 @@ ol {
         position: fixed;
         top: 0;
         right: -100%;
-        width: 80%;
-        max-width: 320px;
+        width: 82%;
+        max-width: 340px;
         height: 100vh;
-        background: var(--color-surface);
+        background: var(--color-text);
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        gap: 24px;
+        align-items: stretch;
+        gap: 0;
+        padding: 60px 32px;
         transition: var(--transition-slow);
-        box-shadow: var(--shadow-xl);
+        box-shadow: -8px 0 40px rgba(0, 0, 0, 0.3);
+        z-index: 1001;
     }
 
     .navbar__nav.open {
@@ -1094,8 +1092,23 @@ ol {
     }
 
     .navbar__nav .navbar__link {
-        color: var(--color-text);
+        color: rgba(255, 255, 255, 0.8);
         font-size: var(--font-size-lg);
+        font-weight: 500;
+        padding: 16px 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        display: block;
+        transition: var(--transition);
+    }
+
+    .navbar__nav .navbar__link:hover,
+    .navbar__nav .navbar__link.active {
+        color: #F0D9BF;
+        padding-left: 8px;
+    }
+
+    .navbar__nav .navbar__link::after {
+        display: none;
     }
 
     .navbar__cta {
@@ -1104,10 +1117,21 @@ ol {
 
     .navbar__cta-mobile {
         display: inline-flex;
+        margin-top: 24px;
+        width: 100%;
+        justify-content: center;
     }
 
     .navbar__toggle {
         display: flex;
+    }
+
+    .navbar__toggle span {
+        background: var(--color-text);
+    }
+
+    .navbar__toggle.active span {
+        background: var(--color-surface);
     }
 
     /* Mobile overlay */
