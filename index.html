@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thaynara Eventos — Decoração de Festas e Eventos</title>
+    <meta name="description"
+        content="Thaynara Eventos transforma seus sonhos em festas inesquecíveis. Decoração personalizada para aniversários, casamentos, chá de bebê, formaturas e eventos corporativos.">
+    <meta property="og:title" content="Thaynara Eventos — Decoração de Festas e Eventos">
+    <meta property="og:description"
+        content="Transformamos seus sonhos em festas inesquecíveis. Decoração personalizada para cada momento especial da sua vida.">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- ===== MENU ===== -->
+    <header class="navbar" id="navbar">
+        <div class="container navbar__inner">
+            <a href="#inicio" class="navbar__logo">
+                <img src="assets/logo-thaynara-eventos-no-found.png" alt="Thaynara Eventos" class="navbar__logo-img">
+            </a>
+            <nav class="navbar__nav" id="navMenu">
+                <a href="#inicio" class="navbar__link">Início</a>
+                <a href="#categorias" class="navbar__link">Nossos Serviços</a>
+                <a href="#quem-somos" class="navbar__link">Quem Somos</a>
+                <a href="#redes" class="navbar__link">Nossas Redes</a>
+                <a href="#redes" class="btn btn--primary navbar__cta-mobile">Solicite um Orçamento</a>
+            </nav>
+            <a href="#redes" class="btn btn--primary navbar__cta">Solicite um Orçamento</a>
+            <button class="navbar__toggle" id="navToggle" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="inicio">
+        <div class="hero__bg">
+            <img src="assets/hero.png" alt="Decoração de festa elegante" class="hero__bg-img">
+            <div class="hero__overlay"></div>
+        </div>
+        <div class="container hero__content">
+            <span class="hero__badge reveal">✨ Decoração de Festas e Eventos</span>
+            <h1 class="hero__title reveal">Transformamos seus sonhos em festas <em>inesquecíveis</em></h1>
+            <p class="hero__subtitle reveal">Decoração personalizada para cada momento especial da sua vida. Do
+                planejamento à execução, cuidamos de cada detalhe com carinho.</p>
+            <div class="hero__actions reveal">
+                <a href="#categorias" class="btn btn--light btn--lg">Conheça Nosso Trabalho</a>
+                <a href="#contato" class="btn btn--outline-light btn--lg">Fale Conosco</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CATEGORIAS ===== -->
+    <section class="categories" id="categorias">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-header__tag">Nossos Serviços</span>
+                <h2 class="section-header__title">Encontre sua festa ideal aqui!</h2>
+                <p class="section-header__desc">Oferecemos decoração completa para os momentos mais especiais da sua
+                    vida. Cada evento é único e merece um toque exclusivo.</p>
+            </div>
+        </div>
+        <div class="categories__scroll reveal">
+            <div class="categories__track">
+                <a href="#" class="catcard catcard--1">
+                    <div class="catcard__img-wrap">
+                        <img src="assets/cat-aniversarios.png" alt="Decoração de aniversário" loading="lazy">
+                    </div>
+                    <div class="catcard__info">
+                        <h3 class="catcard__title">Festas de 15 anos</h3>
+                        <span class="catcard__cta">Saiba mais!</span>
+                    </div>
+                </a>
+                <a href="#" class="catcard catcard--2">
+                    <div class="catcard__img-wrap">
+                        <img src="assets/cat-casamentos.png" alt="Decoração de casamento" loading="lazy">
+                    </div>
+                    <div class="catcard__info">
+                        <h3 class="catcard__title">Festas Infantis</h3>
+                        <span class="catcard__cta">Saiba mais!</span>
+                    </div>
+                </a>
+                <a href="#" class="catcard catcard--3">
+                    <div class="catcard__img-wrap">
+                        <img src="assets/cat-chadebebe.png" alt="Decoração de chá de bebê" loading="lazy">
+                    </div>
+                    <div class="catcard__info">
+                        <h3 class="catcard__title">Chá de Bebê</h3>
+                        <span class="catcard__cta">Saiba mais!</span>
+                    </div>
+                </a>
+                <a href="#" class="catcard catcard--4">
+                    <div class="catcard__img-wrap">
+                        <img src="assets/cat-formaturas.png" alt="Decoração de formatura" loading="lazy">
+                    </div>
+                    <div class="catcard__info">
+                        <h3 class="catcard__title">Casamentos</h3>
+                        <span class="catcard__cta">Saiba mais!</span>
+                    </div>
+                </a>
+                <a href="#" class="catcard catcard--5">
+                    <div class="catcard__img-wrap">
+                        <img src="assets/cat-corporativos.png" alt="Decoração de evento corporativo" loading="lazy">
+                    </div>
+                    <div class="catcard__info">
+                        <h3 class="catcard__title">Buffet</h3>
+                        <span class="catcard__cta">Saiba mais!</span>
+                    </div>
+                </a>
+                <a href="#" class="catcard catcard--6">
+                    <div class="catcard__img-wrap">
+                        <img src="assets/cat-datas.png" alt="Decoração de datas comemorativas" loading="lazy">
+                    </div>
+                    <div class="catcard__info">
+                        <h3 class="catcard__title">Datas Especiais</h3>
+                        <span class="catcard__cta">Saiba mais!</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="categories__arrows">
+            <button class="categories__arrow categories__arrow--left" id="catPrev" aria-label="Anterior">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="15 18 9 12 15 6" />
+                </svg>
+            </button>
+            <button class="categories__arrow categories__arrow--right" id="catNext" aria-label="Próximo">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="9 18 15 12 9 6" />
+                </svg>
+            </button>
+        </div>
+    </section>
+
+    <!-- ===== QUEM SOMOS ===== -->
+    <section class="about" id="quem-somos">
+        <div class="container about__inner">
+            <div class="about__image reveal">
+                <img src="assets/about.png" alt="Equipe Thaynara Eventos em ação" loading="lazy">
+            </div>
+            <div class="about__content reveal">
+                <span class="section-header__tag">Nossa História</span>
+                <h2 class="section-header__title">Quem Somos</h2>
+                <p class="about__text">
+                    A <strong>Thaynara Eventos</strong> nasceu do sonho de transformar momentos em memórias
+                    inesquecíveis.
+                    Com paixão pela decoração e atenção a cada detalhe, criamos ambientes que encantam e emocionam.
+                </p>
+                <p class="about__text">
+                    Trabalhamos com dedicação para que cada evento reflita a personalidade e os desejos dos nossos
+                    clientes.
+                    Do conceito à execução, cada peça é cuidadosamente selecionada para criar a atmosfera perfeita.
+                </p>
+                <div class="about__stats">
+                    <div class="stat">
+                        <span class="stat__number">5+</span>
+                        <span class="stat__label">Anos de Experiência</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat__number">200+</span>
+                        <span class="stat__label">Eventos Realizados</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat__number">100%</span>
+                        <span class="stat__label">Clientes Satisfeitos</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== REDES SOCIAIS ===== -->
+    <section class="social" id="redes">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-header__tag">Fique por Dentro</span>
+                <h2 class="section-header__title">Nossas Redes Sociais</h2>
+                <p class="section-header__desc">Acompanhe nosso trabalho, inspire-se com nossas criações e fique por
+                    dentro das novidades.</p>
+            </div>
+            <div class="social__grid reveal">
+                <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer"
+                    class="social__card social__card--instagram" aria-label="Instagram">
+                    <div class="social__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                        </svg>
+                    </div>
+                    <span class="social__name">Instagram</span>
+                    <span class="social__handle">@thaynaraeventos</span>
+                </a>
+                <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer"
+                    class="social__card social__card--facebook" aria-label="Facebook">
+                    <div class="social__icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                        </svg>
+                    </div>
+                    <span class="social__name">Facebook</span>
+                    <span class="social__handle">Thaynara Eventos</span>
+                </a>
+                <a href="https://wa.me/" target="_blank" rel="noopener noreferrer"
+                    class="social__card social__card--whatsapp" aria-label="WhatsApp">
+                    <div class="social__icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z" />
+                        </svg>
+                    </div>
+                    <span class="social__name">WhatsApp</span>
+                    <span class="social__handle">Fale Conosco</span>
+                </a>
+                <a href="https://tiktok.com/" target="_blank" rel="noopener noreferrer"
+                    class="social__card social__card--tiktok" aria-label="TikTok">
+                    <div class="social__icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 0 0-.79-.05A6.34 6.34 0 0 0 3.15 15a6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.34-6.34V8.73a8.19 8.19 0 0 0 4.76 1.52v-3.4a4.85 4.85 0 0 1-1-.16z" />
+                        </svg>
+                    </div>
+                    <span class="social__name">TikTok</span>
+                    <span class="social__handle">@thaynaraeventos</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== DEPOIMENTOS ===== -->
+    <section class="testimonials" id="clientes">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-header__tag">Depoimentos</span>
+                <h2 class="section-header__title">Nossos Clientes</h2>
+                <p class="section-header__desc">A satisfação dos nossos clientes é a nossa maior recompensa. Veja o que
+                    dizem sobre nós.</p>
+            </div>
+            <div class="testimonials__carousel reveal">
+                <div class="testimonials__track" id="testimonialTrack">
+                    <div class="testimonial">
+                        <div class="testimonial__stars">★★★★★</div>
+                        <p class="testimonial__text">"A Thaynara superou todas as expectativas! A decoração do
+                            aniversário da minha filha ficou simplesmente encantadora. Cada detalhe foi pensado com
+                            muito carinho."</p>
+                        <div class="testimonial__author">
+                            <div class="testimonial__avatar">MR</div>
+                            <div>
+                                <strong class="testimonial__name">Maria Rodrigues</strong>
+                                <span class="testimonial__event">Aniversário Infantil</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="testimonial__stars">★★★★★</div>
+                        <p class="testimonial__text">"Nosso casamento foi perfeito graças à Thaynara Eventos. A
+                            decoração estava exatamente como sonhamos. Profissionalismo e sensibilidade em cada
+                            escolha."</p>
+                        <div class="testimonial__author">
+                            <div class="testimonial__avatar">AS</div>
+                            <div>
+                                <strong class="testimonial__name">Ana & Carlos Silva</strong>
+                                <span class="testimonial__event">Casamento</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="testimonial__stars">★★★★★</div>
+                        <p class="testimonial__text">"Contratamos para nosso evento corporativo e o resultado foi
+                            impressionante. Ambiente sofisticado, elegante e acolhedor. Todos os convidados elogiaram!"
+                        </p>
+                        <div class="testimonial__author">
+                            <div class="testimonial__avatar">PL</div>
+                            <div>
+                                <strong class="testimonial__name">Paulo Lima</strong>
+                                <span class="testimonial__event">Evento Corporativo</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="testimonial__stars">★★★★★</div>
+                        <p class="testimonial__text">"O chá de bebê ficou um sonho! A Thaynara entendeu exatamente o que
+                            eu queria e entregou algo ainda mais lindo do que eu imaginei. Recomendo de olhos fechados!"
+                        </p>
+                        <div class="testimonial__author">
+                            <div class="testimonial__avatar">JO</div>
+                            <div>
+                                <strong class="testimonial__name">Juliana Oliveira</strong>
+                                <span class="testimonial__event">Chá de Bebê</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonials__controls">
+                    <button class="testimonials__btn" id="prevBtn" aria-label="Depoimento anterior">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="15 18 9 12 15 6" />
+                        </svg>
+                    </button>
+                    <div class="testimonials__dots" id="testimonialDots"></div>
+                    <button class="testimonials__btn" id="nextBtn" aria-label="Próximo depoimento">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="9 18 15 12 9 6" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer" id="contato">
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer__brand">
+                    <img src="assets/logo-footer.png" alt="Thaynara Eventos" class="footer__logo">
+                    <p class="footer__tagline">Transformamos seus sonhos em festas inesquecíveis. Decoração
+                        personalizada com amor e dedicação.</p>
+                </div>
+                <div class="footer__links">
+                    <h4 class="footer__heading">Navegação</h4>
+                    <a href="#inicio">Início</a>
+                    <a href="#categorias">Categorias</a>
+                    <a href="#quem-somos">Quem Somos</a>
+                    <a href="#redes">Redes Sociais</a>
+                    <a href="#clientes">Clientes</a>
+                </div>
+                <div class="footer__links">
+                    <h4 class="footer__heading">Serviços</h4>
+                    <a href="#categorias">Festas de 15 anos</a>
+                    <a href="#categorias">Festas Infantis</a>
+                    <a href="#categorias">Chá de Bebê</a>
+                    <a href="#categorias">Confraternizações</a>
+                    <a href="#categorias">Casamentos</a>
+                    <a href="#categorias">Buffet</a>
+                </div>
+                <div class="footer__contact">
+                    <h4 class="footer__heading">Contato</h4>
+                    <p>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16"
+                            height="16">
+                            <path
+                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+                        </svg>
+                        (00) 00000-0000
+                    </p>
+                    <p>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16"
+                            height="16">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                            <polyline points="22,6 12,13 2,6" />
+                        </svg>
+                        contato@thaynaraeventos.com
+                    </p>
+                    <div class="footer__social">
+                        <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer"
+                            aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="20"
+                                height="20">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                            </svg>
+                        </a>
+                        <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                            </svg>
+                        </a>
+                        <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+                                <path
+                                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2026 Thaynara Eventos — Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" class="whatsapp-float"
+        aria-label="Fale pelo WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28">
+            <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z" />
+        </svg>
+    </a>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
