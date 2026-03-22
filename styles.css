@@ -407,7 +407,7 @@ ol {
     overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
-    padding: 0 48px 20px;
+    padding: 12px 48px 20px;
 }
 
 .categories__scroll::-webkit-scrollbar {
@@ -425,8 +425,8 @@ ol {
 .catcard {
     display: flex;
     flex-direction: column;
-    width: 260px;
-    min-width: 260px;
+    width: 280px;
+    min-width: 280px;
     height: 330px;
     border-radius: var(--radius-xl);
     overflow: hidden;
@@ -1205,7 +1205,7 @@ ol {
     }
 
     .categories__scroll {
-        padding: 0 20px 12px;
+        padding: 12px 20px 12px;
     }
 
     .categories__track {
@@ -1213,9 +1213,9 @@ ol {
     }
 
     .catcard {
-        width: 250px;
-        min-width: 250px;
-        height: 300px;
+        width: 280px;
+        min-width: 280px;
+        height: 360px;
     }
 
     .catcard__img-wrap {
@@ -1424,11 +1424,5 @@ ol {
 
     .hero__title {
         font-size: 1.5rem;
-    }
-
-    .catcard {
-        width: 160px;
-        min-width: 160px;
-        height: 240px;
     }
 }
