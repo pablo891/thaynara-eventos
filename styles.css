@@ -425,9 +425,9 @@ ol {
 .catcard {
     display: flex;
     flex-direction: column;
-    width: 220px;
-    min-width: 220px;
-    height: 320px;
+    width: 260px;
+    min-width: 260px;
+    height: 330px;
     border-radius: var(--radius-xl);
     overflow: hidden;
     position: relative;
@@ -1213,9 +1213,9 @@ ol {
     }
 
     .catcard {
-        width: 180px;
-        min-width: 180px;
-        height: 260px;
+        width: 250px;
+        min-width: 250px;
+        height: 300px;
     }
 
     .catcard__img-wrap {
